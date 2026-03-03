@@ -9,7 +9,7 @@ long fib(int n) {
 }
 
 int main(int argc, char *argv[]) {
-    int n = 50;
+    int n = 42;
     long r = fib(n);
 
     return 0;
