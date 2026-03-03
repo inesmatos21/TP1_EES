@@ -1,0 +1,857 @@
+desc: --stacks=yes
+cmd: ./ackermann 4 1
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=308864
+mem_heap_B=4248070
+mem_heap_extra_B=658
+mem_stacks_B=960
+heap_tree=peak
+n2: 4248070 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 4243763 0x48E855: stgMallocBytes (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n1: 2097152 0x497D6C: initEventLogging (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+   n1: 2097152 0x496891: initTracing (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+    n1: 2097152 0x48E3F2: hs_init_ghc (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+     n1: 2097152 0x48D865: hs_main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+      n0: 2097152 0x40A239: main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n1: 2097152 0x497DA1: initEventLogging (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+   n1: 2097152 0x496891: initTracing (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+    n1: 2097152 0x48E3F2: hs_init_ghc (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+     n1: 2097152 0x48D865: hs_main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+      n0: 2097152 0x40A239: main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n0: 49459 in 23 places, all below massif's threshold (1.00%)
+ n0: 4307 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=13996478714
+mem_heap_B=4256438
+mem_heap_extra_B=714
+mem_stacks_B=17144
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=28604370204
+mem_heap_B=4256438
+mem_heap_extra_B=714
+mem_stacks_B=17192
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=37254933168
+mem_heap_B=4256438
+mem_heap_extra_B=714
+mem_stacks_B=17144
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=45910791700
+mem_heap_B=4256438
+mem_heap_extra_B=714
+mem_stacks_B=17144
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=58999803858
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=69683467785
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=84543689033
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=92605632520
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=106042021625
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=114999585995
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=128136714947
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17448
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=137688199102
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=153209678663
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=162761579941
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=171118949239
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=181864867461
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=197988717265
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=205155826651
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=214114423588
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=226656836880
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=235616043294
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=248158183687
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=detailed
+n2: 4256403 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 4252096 0x48E855: stgMallocBytes (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n1: 2097152 0x497D6C: initEventLogging (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+   n1: 2097152 0x496891: initTracing (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+    n1: 2097152 0x48E3F2: hs_init_ghc (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+     n1: 2097152 0x48D865: hs_main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+      n0: 2097152 0x40A239: main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n1: 2097152 0x497DA1: initEventLogging (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+   n1: 2097152 0x496891: initTracing (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+    n1: 2097152 0x48E3F2: hs_init_ghc (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+     n1: 2097152 0x48D865: hs_main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+      n0: 2097152 0x40A239: main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n0: 57792 in 26 places, all below massif's threshold (1.00%)
+ n0: 4307 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=24
+#-----------
+time=257116863592
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=267867060363
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=282200344799
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17448
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=292949622706
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17448
+heap_tree=detailed
+n2: 4256403 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 4252096 0x48E855: stgMallocBytes (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n1: 2097152 0x497D6C: initEventLogging (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+   n1: 2097152 0x496891: initTracing (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+    n1: 2097152 0x48E3F2: hs_init_ghc (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+     n1: 2097152 0x48D865: hs_main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+      n0: 2097152 0x40A239: main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n1: 2097152 0x497DA1: initEventLogging (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+   n1: 2097152 0x496891: initTracing (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+    n1: 2097152 0x48E3F2: hs_init_ghc (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+     n1: 2097152 0x48D865: hs_main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+      n0: 2097152 0x40A239: main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n0: 57792 in 26 places, all below massif's threshold (1.00%)
+ n0: 4307 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=307282008385
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=321614275085
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=1896
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=328780654990
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=17400
+heap_tree=detailed
+n2: 4256435 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 4252128 0x48E855: stgMallocBytes (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n1: 2097152 0x497D6C: initEventLogging (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+   n1: 2097152 0x496891: initTracing (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+    n1: 2097152 0x48E3F2: hs_init_ghc (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+     n1: 2097152 0x48D865: hs_main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+      n0: 2097152 0x40A239: main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n1: 2097152 0x497DA1: initEventLogging (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+   n1: 2097152 0x496891: initTracing (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+    n1: 2097152 0x48E3F2: hs_init_ghc (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+     n1: 2097152 0x48D865: hs_main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+      n0: 2097152 0x40A239: main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n0: 57824 in 27 places, all below massif's threshold (1.00%)
+ n0: 4307 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=339530046717
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=353862275332
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=1864
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=361028760291
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=375361501688
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=1864
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=386110901986
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=393277261556
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=404026610737
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=418358989221
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=432691602173
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=447023820996
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=1848
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=460472491211
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=17448
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=468848256139
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=478271163881
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=17448
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=491882014054
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=1864
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=501304329357
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=1832
+heap_tree=detailed
+n2: 4256403 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 4252096 0x48E855: stgMallocBytes (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n1: 2097152 0x497D6C: initEventLogging (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+   n1: 2097152 0x496891: initTracing (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+    n1: 2097152 0x48E3F2: hs_init_ghc (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+     n1: 2097152 0x48D865: hs_main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+      n0: 2097152 0x40A239: main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n1: 2097152 0x497DA1: initEventLogging (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+   n1: 2097152 0x496891: initTracing (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+    n1: 2097152 0x48E3F2: hs_init_ghc (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+     n1: 2097152 0x48D865: hs_main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+      n0: 2097152 0x40A239: main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n0: 57792 in 29 places, all below massif's threshold (1.00%)
+ n0: 4307 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=512178233542
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=1864
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=525336019206
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=1896
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=538494187819
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=553532721360
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=556404113644
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=1864
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=559275735485
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=562147127760
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=1864
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=565018520074
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=1832
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=567889961461
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=17448
+heap_tree=detailed
+n2: 4256435 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 4252128 0x48E855: stgMallocBytes (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n1: 2097152 0x497D6C: initEventLogging (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+   n1: 2097152 0x496891: initTracing (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+    n1: 2097152 0x48E3F2: hs_init_ghc (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+     n1: 2097152 0x48D865: hs_main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+      n0: 2097152 0x40A239: main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n1: 2097152 0x497DA1: initEventLogging (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+   n1: 2097152 0x496891: initTracing (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+    n1: 2097152 0x48E3F2: hs_init_ghc (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+     n1: 2097152 0x48D865: hs_main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+      n0: 2097152 0x40A239: main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n0: 57824 in 29 places, all below massif's threshold (1.00%)
+ n0: 4307 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=55
+#-----------
+time=570761368492
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17448
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=573632760794
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=1896
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=576504154785
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=579375793577
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=582247185852
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=1784
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=585118683224
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=587990075521
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=1848
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=590861472694
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=17448
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=593732877296
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=596604269572
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=1864
+heap_tree=detailed
+n2: 4256403 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 4252096 0x48E855: stgMallocBytes (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n1: 2097152 0x497D6C: initEventLogging (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+   n1: 2097152 0x496891: initTracing (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+    n1: 2097152 0x48E3F2: hs_init_ghc (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+     n1: 2097152 0x48D865: hs_main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+      n0: 2097152 0x40A239: main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n1: 2097152 0x497DA1: initEventLogging (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+   n1: 2097152 0x496891: initTracing (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+    n1: 2097152 0x48E3F2: hs_init_ghc (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+     n1: 2097152 0x48D865: hs_main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+      n0: 2097152 0x40A239: main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n0: 57792 in 29 places, all below massif's threshold (1.00%)
+ n0: 4307 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=65
+#-----------
+time=599475684096
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17448
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=602347194868
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=605218587163
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=1848
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=608089979448
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=1896
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=610961489966
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=613833051783
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=616704682179
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=619576074493
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=1832
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=622447466773
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=1848
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=625318861174
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17448
+heap_tree=detailed
+n2: 4256403 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 4252096 0x48E855: stgMallocBytes (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n1: 2097152 0x497D6C: initEventLogging (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+   n1: 2097152 0x496891: initTracing (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+    n1: 2097152 0x48E3F2: hs_init_ghc (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+     n1: 2097152 0x48D865: hs_main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+      n0: 2097152 0x40A239: main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n1: 2097152 0x497DA1: initEventLogging (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+   n1: 2097152 0x496891: initTracing (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+    n1: 2097152 0x48E3F2: hs_init_ghc (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+     n1: 2097152 0x48D865: hs_main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+      n0: 2097152 0x40A239: main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n0: 57792 in 29 places, all below massif's threshold (1.00%)
+ n0: 4307 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=75
+#-----------
+time=628190472373
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=631061996239
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=633933388516
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=1848
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=636805034049
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=639676680732
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=642548128011
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=645419695474
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=648291224617
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=651162616895
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=1864
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=654034068938
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=17400
+heap_tree=detailed
+n2: 4256435 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 4252128 0x48E855: stgMallocBytes (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n1: 2097152 0x497D6C: initEventLogging (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+   n1: 2097152 0x496891: initTracing (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+    n1: 2097152 0x48E3F2: hs_init_ghc (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+     n1: 2097152 0x48D865: hs_main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+      n0: 2097152 0x40A239: main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n1: 2097152 0x497DA1: initEventLogging (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+   n1: 2097152 0x496891: initTracing (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+    n1: 2097152 0x48E3F2: hs_init_ghc (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+     n1: 2097152 0x48D865: hs_main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+      n0: 2097152 0x40A239: main (in /home/felipe/Documents/Uni/SVDM/EES/RAPL_Measurements/Utils/ackermann)
+  n0: 57824 in 29 places, all below massif's threshold (1.00%)
+ n0: 4307 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=85
+#-----------
+time=656905550658
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=659776942962
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=1864
+heap_tree=empty
+#-----------
+snapshot=87
+#-----------
+time=662648335253
+mem_heap_B=4256435
+mem_heap_extra_B=693
+mem_stacks_B=1848
+heap_tree=empty
+#-----------
+snapshot=88
+#-----------
+time=665519753130
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17448
+heap_tree=empty
+#-----------
+snapshot=89
+#-----------
+time=668391153189
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17448
+heap_tree=empty
+#-----------
+snapshot=90
+#-----------
+time=671262596429
+mem_heap_B=4256403
+mem_heap_extra_B=685
+mem_stacks_B=17400
+heap_tree=empty
