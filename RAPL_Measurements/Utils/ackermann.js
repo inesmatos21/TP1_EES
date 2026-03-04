@@ -4,4 +4,4 @@ function ackermann(m,n){
     return ackermann(m-1,ackermann(m,n-1))
 }
 
-console.log(ackermann(4,1))
+console.log(ackermann(3,12))
