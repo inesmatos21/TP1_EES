@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/inesmatos/Desktop/Universidade/SVDM/EES/TP1_EES/RAPL_Measurements/Utils",
+      "program": "/Users/inesmatos/Desktop/Universidade/SVDM/EES/TP1_EES/RAPL_Measurements/Utils/build/Debug/outDebug"
+    }
+  ]
+}

@@ -8,9 +8,7 @@ long ackermann(int m, int n) {
 }
 
 int main(int argc, char *argv[]) {
-    int m = 4;
-    int n = 1;
-    long r = ackermann(m,n);
-    printf("%ld \n",r);
+    int m = 3, n = 2;
+    printf("%ld \n",ackermann(m,n));
     return 0;
 }
