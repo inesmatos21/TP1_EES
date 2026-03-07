@@ -7,4 +7,4 @@ def ackermann(m,n):
     if(n==0): return ackermann(m-1,1)
     return ackermann(m-1,ackermann(m,n-1))
 
-print(ackermann(3,12))
+print(ackermann(4,1))
